@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.parent_container{
+    width: 600px;
+    height: 600px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    filter: blur(4px);
+    
+}
+
+.left_line{
+    padding-top:40px;
+    width: 145px;
+    float: left;
+    padding-left:20px;
+}
+
+.trip_heading{
+    padding-top: 20px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.right_line{
+    padding-top:40px;
+    width: 145px;
+    float: left;
+}
+
+.back{
+    position: absolute;
+    padding-top: 90px;
+    padding-left: 270px;
+    font-size: 25px;
+    color: grey;
+}
+
+.back_btn{
+    position: absolute;
+    padding-top: 90px;
+    padding-left: 235px;
+    font-size: 25px;
+    color: red;
+}
+
+.cardid_1{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 250px;
+    height: 300px;
+    border: 1px solid red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.text_1{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.line_1{
+    width: 170px;
+    float: right;
+}
+
+.complete_1{
+   padding-top: 10px;
+   padding-left: 75px;
+   font-weight: bolder;
+   font-size: 20px;
+   color: darkred;
+   text-decoration-line: line-through;
+   text-decoration-color: red;
+   text-decoration-style: solid;
+}
+
+.labeling_1{
+    padding-top:20px;
+    padding-left: 60px;
+}
+
+.plus_icon{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 25px;
+    color: red;
+}
+
+/* Add new Card */
+
+.pop_card{
+    width: 300px;
+    height: 180px;
+    border: 1px solid red;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    left: 510px;
+    top: 250px;
+    background-color: white;
+}
+
+.textlist{
+    padding-top: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto 90px;
+}
+
+.input_text{
+    margin: auto;
+    border: 1px solid red;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.button_add{
+    border:1px solid red;
+    border-radius: 8px;
+    width: 70px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    padding-top:10px;
+    margin-top: 20px;
+    background-color:darkred;
+    color: white;
+    
+}
